@@ -6,7 +6,7 @@ CI_TYPE=${CI_TYPE:-jenkins}
 
 # from buildah-rhtap
 TAG=$(git rev-parse HEAD)
-export IMAGE_URL=${IMAGE_URL-quay.io/tnevrlka/bootstrap:$CI_TYPE-$TAG}
+export IMAGE_URL=${IMAGE_URL-quay.io//bootstrap:$CI_TYPE-$TAG}
 export IMAGE=${IMAGE-$IMAGE_URL}
 
 export DOCKERFILE=${DOCKERFILE-Dockerfile}
@@ -53,4 +53,4 @@ export SBOMS_DIR=results/sboms
 export REKOR_HOST=
 export IGNORE_REKOR=true
 export TUF_MIRROR=
-# Update forced CI test čt 2. ledna 2025, 15:31:30 CET
+# Update forced CI test čt 2. ledna 2025, 17:09:01 CET
