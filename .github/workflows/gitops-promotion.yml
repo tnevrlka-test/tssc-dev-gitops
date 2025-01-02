@@ -40,7 +40,7 @@ jobs:
     # ubuntu-20.04 can also be used.
     runs-on: ubuntu-24.04
     container:
-      image: quay.io//dance-bootstrap-app:rhtap-runner
+      image: quay.io/tnevrlka/dance-bootstrap-app:rhtap-runner
     environment: production
 
     steps:
