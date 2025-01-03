@@ -53,4 +53,4 @@ export SBOMS_DIR=results/sboms
 export REKOR_HOST=
 export IGNORE_REKOR=true
 export TUF_MIRROR=
-# Update forced CI test čt 2. ledna 2025, 17:18:39 CET
+# Update forced CI test pá 3. ledna 2025, 12:51:29 CET
